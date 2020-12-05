@@ -1,0 +1,54 @@
+{
+    "customer": {
+      "name": "Iago Vinicios",
+      "birthDate": "2000-11-16T23:20:50.581Z",
+      "document": "1123457896",
+      "email": "iagovinicios@murano.dev",
+      "billingAddress": {
+        "street": "Cmt pdro",
+        "number": 380,
+        "complement": "string",
+        "zipCode": "87377060",
+        "city": "Navegantes",
+        "state": "SC",
+        "country": "Brasil"
+      },
+      "deliveryAddress": {
+        "street": "Cmt pdro",
+        "number": 380,
+        "complement": "string",
+        "zipCode": "88372060",
+        "city": "Navegantes",
+        "state": "SC",
+        "country": "Brasil"
+      }
+    },
+    "payment": {
+      "method": "Credit",
+      "amount": 1,
+      "installments": 1,
+      "currency": "BRL",
+      "card": {
+        "issuer": {
+          "name": "Iago Vinicios dos santos"
+        },
+        "holderName": "Iago Vinicios dos santos",
+        "number": "4824********2113",
+        "expiration": {
+          "month": 12,
+          "year": 23
+        },
+        "securityCode": "460"
+      }
+    },
+    "sellerId": 10731454928,
+    "callbackUrl": "string",
+    "softDescriptor": "Teste1",
+    "referenceId": "string",
+    "deviceFingerPrint": "string",
+    "trackingData": {
+      "originDomainName": "string",
+      "customerIpAddress": "177.93.150.6"
+    },
+    "notes": "string"
+  }
